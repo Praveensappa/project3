@@ -1,0 +1,129 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+.first {
+    height: 30%;
+}
+
+.logo {
+    color: white;
+    margin-left: 1rem;
+    display: inline-flex;
+    position: sticky;
+    cursor: pointer;
+
+}
+
+.navbar {
+    display: inline-block;
+    /* background: #000; */
+    float: right;
+    overflow: hidden;
+    position: sticky;
+    
+}
+
+.navbar>ul {
+    padding: 0;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.navbar a {
+    display: block;
+    padding: 11px;
+    margin: 1px;
+    text-decoration: none;
+
+}
+
+.navbarlist {}
+
+li {
+    float: right;
+    list-style-type: none;
+}
+
+.navbarlist {
+    color: aliceblue;
+}
+
+.navbar a:hover {
+    background-color: #000;
+    transition: 1.3s;
+}
+
+/* .navbar ul{
+    list-style: none;
+    background-color: brown;
+    border:1.8px solid aqua;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+}
+.navbar a{
+   
+  display: block; 
+  text-align: center;
+  padding:13px ;
+  text-decoration:black;
+  color: powderblue;
+  
+}
+li{
+    float: left;
+} */
+
+.main {
+    text-align: center;
+    color: white;
+    height: 37%;
+}
+
+.main1 {
+    padding: 5px;
+}
+
+.main button {
+    padding: 5px;
+    margin-top: 13px;
+    background-color: rgb(18, 18, 172);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.select {
+
+    background-color: aliceblue;
+}
+
+.select {
+    display: flex;
+    gap: 25px;
+    width: fit-content;
+    position: relative;
+   margin: auto;
+    justify-content: space-around;
+   padding-bottom: 20px;
+   align-items: center;
+}
+
+.select h3 {
+    padding: 0;
+    margin: 8px;
+}
+.select1 button{
+    background-color: blue;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
